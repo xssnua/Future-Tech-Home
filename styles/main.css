@@ -298,6 +298,10 @@ svg * {
   }
 }
 
+html.is-lock {
+  overflow: hidden;
+}
+
 body {
   font-size: clamp(0.875rem, 0.7944214876rem + 0.3305785124vw, 1.125rem);
   font-family: var(--font-family-base);
@@ -494,15 +498,15 @@ button[aria-label]::before {
     color: var(--color-accent);
   }
 }
-.burger-button.is-active .burger-button-line:first-child {
+.burger-button.is-active .burger-button__line:first-child {
   rotate: 45deg;
   transform-origin: 0;
-  translate: 0.25em -0.1em;
+  translate: 0.2em -0.05em;
 }
-.burger-button.is-active .burger-button-line:nth-child(2) {
+.burger-button.is-active .burger-button__line:nth-child(2) {
   rotate: -45deg;
 }
-.burger-button.is-active .burger-button-line:last-child {
+.burger-button.is-active .burger-button__line:last-child {
   width: 0;
 }
 .burger-button__line {
