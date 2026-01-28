@@ -308,7 +308,7 @@ html.is-lock {
 }
 
 body {
-  font-size: clamp(1.5rem, 1.6208677686rem + -0.4958677686vw, 1.125rem);
+  font-size: clamp(0.875rem, 0.7944214876rem + 0.3305785124vw, 1.125rem);
   display: flex;
   flex-direction: column;
   font-family: var(--font-family-base);
